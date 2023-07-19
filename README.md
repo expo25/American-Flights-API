@@ -5,4 +5,5 @@ This project is a beginner-level API designer using Mulesoft's [American-Flights
 ### Supported Operations:
 - GET all flights.
 - GET a flight with a specific ID.
-- Add a flight. 
+- Add a flight.
+- Delete a flight.
