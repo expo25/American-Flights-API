@@ -58,4 +58,8 @@ types:
           examples:
             input: !include AmericanFlightNoIDExample.raml
       responses:
-        200
+        200:
+          body:
+            application/json:
+              example:
+                message: Flight updated (but not really)
