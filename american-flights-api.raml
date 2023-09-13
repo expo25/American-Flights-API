@@ -54,7 +54,7 @@ traits:
               message: Flight added (but not really)
 
   /{ID}:
-    is: [client-]
+    is: [client-id-required]
     get:
       responses:
         200:
