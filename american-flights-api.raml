@@ -14,7 +14,10 @@ traits:
     responses:
       401:
         description: Unathorized request, The client_id or client_secret are not valid or the client does not have access.
-
+      429:
+        description: The client used all of its request quota for the current period.
+      500:
+        description: An error occurred. Please see the specific message (Only if it is 
 /flights:
   get:
     queryParameters:
