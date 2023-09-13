@@ -17,7 +17,10 @@ traits:
       429:
         description: The client used all of its request quota for the current period.
       500:
-        description: An error occurred. Please see the specific message (Only if it is 
+        description: An error occurred. Please see the specific message (Only if it is a WSDL endpoint).
+      503:
+        description: Contracts Information Unreachable.
+        
 /flights:
   get:
     queryParameters:
