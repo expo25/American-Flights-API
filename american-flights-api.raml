@@ -22,6 +22,7 @@ traits:
         description: Contracts Information Unreachable.
         
 /flights:
+  is: [client-id-required]
   get:
     queryParameters:
       destination: 
@@ -53,6 +54,7 @@ traits:
               message: Flight added (but not really)
 
   /{ID}:
+    is: [client-]
     get:
       responses:
         200:
