@@ -10,7 +10,10 @@ traits:
       client_id:
         type: string
       client_secret:
-        type: 
+        type: string
+    responses:
+      401:
+        description: Unathorized request, The client_id or client_secret are not valid or the client does not have access.
 
 /flights:
   get:
